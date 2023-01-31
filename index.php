@@ -34,7 +34,7 @@
     ?>
     <br>
 
-    <div>Задание 5</div>
+<div>Задание 5 1 вариант</div>
     <?php
        $a = explode(" ","london is the capital of great britain");
        foreach ($a as &$value) {
@@ -44,8 +44,15 @@
     ?>
     <br>
 
+<div>Задание 5 2 вариант</div>
+    <?php
+       echo(ucwords("london is the capital of great britain"));
+        
+    ?>
+    <br>
+
     
-    <div>Задание 6</div>
+    <div>Задание 6 1 вариант</div>
     <?php
        $a = str_split('LONDON');
 
@@ -56,6 +63,13 @@
        echo(implode("",$a));
     ?>
     <br>
+    
+    <div>Задание 5 2 вариант</div>
+    <?php
+       echo(ucfirst(strtolower("LONDON")));
+    ?>
+    <br>
+
     
 </body>
 </html>
