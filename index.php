@@ -64,19 +64,19 @@
     ?>
     <br></br>
     
-    <div>Задание 5 2 вариант</div>
+    <div>Задание 6 2 вариант</div>
     <?php
        echo(ucfirst(strtolower("LONDON")));
     ?>
     <br></br>
 
-    <div>Задание 6</div>
+    <div>Задание 7</div>
     <?php
        echo(strlen('html css php'));
     ?>
     <br></br>
 
-    <div>Задание 7</div>
+    <div>Задание 8</div>
     <?php
     $password1 = '1234567890';
     if (strlen($password1) >= 5 && strlen($password1) <= 10) {
@@ -87,7 +87,7 @@
     ?>
     <br></br>
     
-    <div>Задание 7</div>
+    <div>Задание 9</div>
     <?php
        echo(substr('html css php', 0, 4)) . '<br>';
        echo(substr('html css php', 5, 3)) . '<br>';
@@ -95,7 +95,7 @@
     ?>
     <br></br>
 
-    <div>Задание 7</div>
+    <div>Задание 10</div>
     <?php
       echo(substr('fsfdfsdfsfdabcd',-3,3));
     ?>
