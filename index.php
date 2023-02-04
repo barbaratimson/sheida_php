@@ -191,7 +191,6 @@
     foreach ($b as $elem) {
         $a = str_replace($elem, '', $a);
     }
-
     echo ($a);
     ?>
     <br></br>
